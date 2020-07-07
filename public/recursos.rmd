@@ -1,0 +1,25 @@
+---
+title: "Recursos"
+author: "quant-AR"
+output: html_document
+---
+### Recopilación de recursos sobre Cuantificación Financiera
+En esta sección se lista diferente material recopilado relacionado con la Cuantificación Financiera.
+
+####  Cursos Online
+
+1. 
+
+#### Libros y Manuales
+
+* **_My life as a Quant_ de Emanuel Derman.** Un libro que describe el paso del mundo de la academia al mundo de las finanzas. De trabajar con premios Nobel a ser jefe del departamento de Cuantificación Financiera de Goldman & Sachs.
+
+#### Publicaciones y articulos cientificos.
+
+1. 
+
+#### Sitios Web
+
+1. 
+
+#### Herramientas, porciones de codigo, etc.
