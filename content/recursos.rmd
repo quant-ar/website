@@ -12,7 +12,10 @@ En esta sección se lista diferente material recopilado relacionado con la Cuant
 
 #### Libros y Manuales
 
-* **_My life as a Quant_ de Emanuel Derman.** Un libro que describe el paso del mundo de la academia al mundo de las finanzas. De trabajar con premios Nobel a ser jefe del departamento de Cuantificación Financiera de Goldman & Sachs.
+* **_My life as a Quant_ de Emanuel Derman.** 
+
+Un libro que describe el paso del mundo de la academia al mundo de las finanzas. De trabajar con premios Nobel a ser jefe del departamento de Cuantificación Financiera de Goldman & Sachs.
+
 
 #### Publicaciones y articulos cientificos.
 

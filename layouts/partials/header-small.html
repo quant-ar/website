@@ -1,0 +1,14 @@
+
+    <!-- Header -->
+    <header class="bg-primary py-2 mb-2">
+      <div class="container h-5">
+        <div class="row h-5 align-items-center">
+          <div class="col-lg-12">
+            {{ with .Site.Params.header }}
+            <h1 class="display-8 text-white mt-1 mb-1">{{ .name }}</h1>
+            <p class="lead mb-1 text-white-50">{{ .tagline }}</p>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </header>

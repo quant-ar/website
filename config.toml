@@ -1,0 +1,102 @@
+# Page settings
+
+baseURL = "/"
+languageCode = "es"
+DefaultContentLanguage = "es"
+title = "quant-AR"
+theme = "hugo-business-frontpage-theme"
+publishDir = "../quant-ar.github.io"
+#googleAnalytics = "UA-XXXXXXX-Y"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[params]
+    author = "quant-AR"
+    description = "quant-AR - Aplicacion de las tecnicas de Quantificación al Mercado Argentino "
+
+    [params.navbar]
+        name = "[]"
+        url = "http://www.twitter.com/quant-ar"
+        image = "twitter-logo.png"
+
+        [[params.navbar.nav]]
+        current = true
+        name = "Principal"
+        url = "/index.html"
+        [[params.navbar.nav]]
+        name = "Equipo"
+        url = "/equipo/"
+        [[params.navbar.nav]]
+        name = "Recursos"
+        url = "/recursos/"
+        [[params.navbar.nav]]
+        name = "Blog"
+        url = "/blog/"
+     
+
+    [params.header]
+        name = "quant-AR"
+        tagline = "Investigación y Desarrollo de Herramientas de Cuantificación Financiera para el Mercado de Valores Argentino."
+
+    [params.summary]
+        url = "/objetivos/"
+
+        [params.summary.description]
+        
+        [[params.summary.description.items]]
+        
+        description = "quant-AR tiene por objetivo investigar y desarrollar diferentes herramientas de Cuantificación Financiaria para facilitar el acceso al usuario final al mundo de las finanzas. El equipo de trabajo de quant-AR está compuesto por un grupo de profesionales provenientes de la academia y el sector privado con un interés en la aplicacion de las técnicas de Cuantificación Financiera y su aplicación al volatil mercado de valores argentino." 
+        
+        [[params.summary.description.items]]
+        # description = "quant-AR surge gracias a la financiación de diferentes unidades académicas de la Universidad Nacional de Cuyo, Universidad Tecnológica Nacional, Facultad Regional Mendoza y Universidad Champagnat. Las cuales proveen los recursos necesarios para la realización de los diferentes proyectos."
+
+
+        [params.summary.contact]
+        name = "quant-AR Research Group"
+        github_url = "http://github.com/quant-ar/"
+        twitter_url = "https://www.twitter.com/quant-ar"
+        twitter_user = "@quant-AR"
+        email = "quant-AR at gmail.com"
+
+    [params.projects]
+
+        [[params.projects.sections]]
+        title = "Proyectos"
+
+        [[params.projects.sections.rows]]
+         title = "Optimización del Portfolio de inversiones"
+
+        [[params.projects.sections.rows.items]]
+        title = "Descripción"
+        description = "Este proyecto tiene por objetivo el estudio de técnicas de ciencias de datos para el análisis de la teoría moderna de optimización de carteras de inversión en el marco del mercado argentino de valores."
+        url = "/proyectos/portfolio"
+        image = "portfolio.jpg"
+        [[params.projects.sections.rows.items]]
+        title = "Herramientas"
+        description = "Desarrollo de un conjunto de herramientas computacionales compuestas por algoritmos derivados del estudio y análisis de la teoría moderna de carteras de inversión."
+        url = "/proyectos/portfolios/herramientas"
+        image = "software-2.png"
+        [[params.projects.sections.rows.items]]
+        title = "Publicaciones"
+        description = "Articulos, reportes tecnicos, revisiones de literatura y otras producciones cientificas desarrolladas en el marco del proyecto"
+        url = "/proyectos/portfolio/publicaciones"
+        image = "papers-2.jpeg"
+
+        # [[params.projects.sections.rows]]
+        # title = "Section 1, Row 2"
+
+        #[[params.projects.sections.rows.items]]
+        #title = "Card title 4"
+        #description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus."
+        #url = "#"
+        # image = "image.png"
+        #[[params.projects.sections.rows.items]]
+        #title = "Card title 5"
+        #description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut."
+        #url = "#"
+        # image = "image.png"
+
+    [params.footer]
+        copyright = "quant-AR"
+
+
+

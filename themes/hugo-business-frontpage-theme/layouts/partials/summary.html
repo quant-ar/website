@@ -1,0 +1,36 @@
+
+      <div class="row">
+
+        <div class="col-md-8 mb-5">
+          <h2>{{ i18n "about" }}</h2>
+          <hr>
+          {{ range .Site.Params.summary.description.items }}
+          <p>{{ .description }}</p>
+          {{ end }}
+          <a class="btn btn-primary btn-lg" href="{{ .Site.Params.summary.url }}">{{ i18n "more" }} &raquo;</a>
+        </div>
+
+        <div class="col-md-4 mb-5">
+          <h2>{{ i18n "contact" }}</h2>
+          <hr>
+          {{ with .Site.Params.summary.contact }}
+          <address>
+            <strong>{{ .name }}</strong>
+            <br>
+          </address>
+          <address>
+            <abbr title="Github">{{partial "svg/icons8-github.svg" }}</abbr>
+            <a href="https://:{{ .github_url }}">{{ .github_url }}</a>
+            <br>
+            <abbr title="twitter"> {{partial "svg/icons8-twitter.svg"}}</abbr>
+            <a href="https:{{ .twitter_url }}">{{  .twitter_user}}</a>
+            <br>
+            <abbr title="email"> {{partial "svg/icons8-envelope-1.svg"}}</abbr>
+            <a href="mailto:{{ .email }}">{{.email}}</a>
+            
+            
+          </address>
+          {{ end }}
+        </div>
+
+      </div><!-- /.row -->
