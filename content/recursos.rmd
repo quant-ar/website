@@ -16,6 +16,7 @@ En esta sección se lista diferente material recopilado relacionado con la Cuant
 
 Un libro que describe el paso del mundo de la academia al mundo de las finanzas. De trabajar con premios Nobel a ser jefe del departamento de Cuantificación Financiera de Goldman & Sachs.
 
+* **_Reproducible Finances with R_** 
 
 #### Publicaciones y articulos cientificos.
 

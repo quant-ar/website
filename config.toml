@@ -29,8 +29,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
         name = "Recursos"
         url = "/recursos/"
         [[params.navbar.nav]]
-        name = "Blog"
-        url = "/blog/"
+        name = "Noticias"
+        url = "/post/"
      
 
     [params.header]
